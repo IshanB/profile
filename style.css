@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(248, 248, 248);
+  color: rgb(10, 10, 10);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(10, 10, 10) ;
+}
+
+h1, h2, h3 {
+  font-family: 'OpenSans', sans-serif;
+  color: rgb(20, 20, 20);
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #27486A;
+}
+
+h2 {
+  font-size: 1.1em;
+  color: #575F7D;
+}
+
+#img-rounded {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  text-align: center;
+  width: 600px;
+}
+
+.card-social li {
+  text-decoration: none;
+  font-size: 2.5em;
+}
+
+.btn {
+  background: rgba(107,114,225, 0.8) ;
+  color: rgb(240, 240, 240);
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: rgba(107,114,225, 1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+
+
+
